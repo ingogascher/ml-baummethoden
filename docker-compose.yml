@@ -1,0 +1,12 @@
+services:
+  ml-tutorial:
+    container_name: ml-tutorial
+    volumes:
+      - .:/var/project
+    ports:
+      - 80:80
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      ENV: "dev"
