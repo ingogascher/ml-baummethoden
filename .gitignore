@@ -3,3 +3,4 @@
 .DS_Store
 data
 .idea
+src/__pycache__
